@@ -44,6 +44,7 @@
 .show-all-button:hover,
 .search-button:hover {
   background-color: #ffbb00;
+  color: #fff;
 }
 
 .error-message {
