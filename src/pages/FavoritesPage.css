@@ -1,0 +1,45 @@
+.favorites-container {
+  padding: 20px;
+  text-align: center;
+}
+
+.favorites-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.favorite-card {
+  background-color: #0e0e0e;
+  padding: 20px;
+  border-radius: 2px;
+  text-align: center;
+}
+
+.favorite-card img {
+  width: 100%;
+  max-width: 150px;
+  border-radius: 2px;
+}
+
+.favorite-card h2 {
+  font-size: 24px;
+  margin: 10px 0;
+}
+
+.remove-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  font-family: "Bangers", sans-serif;
+  background-color: #e62429;
+  color: #ffffff;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.remove-button:hover {
+  background-color: #ffbb00;
+}
