@@ -151,7 +151,11 @@ const SuperheroesList = () => {
           </div>
         ))}
       </div>
-      {loading && <p className="patrick-hand-regular">Loading...</p>}
+      {loading && (
+        <div className="loading-container">
+          <p className="patrick-hand-regular loading-text">Loading...</p>
+        </div>
+      )}
       {expandedHero && selectedHero && (
         <div className="modal-overlay" onClick={closeModal}>
           <div className="modal-content" onClick={(e) => e.stopPropagation()}>
