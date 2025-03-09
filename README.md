@@ -1,4 +1,5 @@
-###Super Index 🦸‍♂️🦸‍♀️
+# Super Index 🦸‍♂️🦸‍♀️
+
 This React-based Single Page Application (SPA) allows you to explore Marvel superheroes, view their details, and manage a list of favourites. Users can also create accounts, log in, and log out to personalize their experience.
 
 ---
